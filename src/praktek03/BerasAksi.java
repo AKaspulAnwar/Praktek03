@@ -9,6 +9,13 @@ public class BerasAksi {
         Siam.setHarga(10000);
         
         Siam.cetakInfo();
+        
+        System.out.print("Warnanya \t: ");
+        System.out.println(Siam.getWarna());
+        System.out.print("Hasilnya \t: ");
+        System.out.println(Siam.getHasil());
+        System.out.print("Harganya \t: ");
+        System.out.println(Siam.getHarga());
     }
     
 }
