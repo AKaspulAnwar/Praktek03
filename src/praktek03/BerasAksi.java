@@ -4,12 +4,12 @@ public class BerasAksi {
     public static void main(String[] args) {
         Beras Siam = new Beras();
         
+        System.out.print("Beras Siam"+"\n");
         Siam.setWarna("Putih Bening");
         Siam.setHasil("Karau");
         Siam.setHarga(10000);
         
         Siam.cetakInfo();
-        
         System.out.print("Warnanya \t: ");
         System.out.println(Siam.getWarna());
         System.out.print("Hasilnya \t: ");
