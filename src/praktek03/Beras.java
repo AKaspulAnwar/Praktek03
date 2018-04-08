@@ -6,7 +6,7 @@ public class Beras {
     private double harga;
     
     void cetakInfo(){
-        System.out.println("Warna \t: "+warna+"\n"+"Hasil \t: "+hasil+"\n"+"Harga \t: "+harga);
+        System.out.println("Warna \t: "+warna+"\n"+"Hasil \t: "+hasil+"\n"+"Harga \t: Rp. "+harga+"/Liter");
         
     }
 
