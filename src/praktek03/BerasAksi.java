@@ -16,6 +16,15 @@ public class BerasAksi {
         System.out.println(Siam.getHasil());
         System.out.print("Harganya \t: ");
         System.out.println(Siam.getHarga());
+        
+        HasilPangan sawah = new HasilPangan();
+        sawah.setWarna("PutihBening");
+        sawah.setHasil("Karau");
+        sawah.setHarga(10000);
+        sawah.setJenisPangan("Padi");
+        sawah.cetakInfo();
+        System.out.println("Jenis \t: "+sawah.getJenisPangan());
+        sawah.throttle();
     }
     
 }
