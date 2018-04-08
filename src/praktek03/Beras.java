@@ -9,4 +9,31 @@ public class Beras {
         System.out.println("Warna \t: "+warna+"\n"+"Hasil \t: "+hasil+"\n"+"Harga \t: "+harga);
         
     }
+
+    public String getWarna() {
+        return warna;
+    }
+
+    public void setWarna(String warna) {
+        this.warna = warna;
+    }
+
+    public String getHasil() {
+        return hasil;
+    }
+
+    public void setHasil(String hasil) {
+        this.hasil = hasil;
+    }
+
+    public double getHarga() {
+        return harga;
+    }
+
+    public void setHarga(double harga) {
+        this.harga = harga;
+    }
+    
+    
+    
 }
